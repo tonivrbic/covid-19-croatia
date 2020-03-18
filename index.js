@@ -61,7 +61,7 @@ async function generateCumulativeCasesCsv(casesRecords) {
 
 async function generateCountyGeoJson(countiesGeoJson, casesPerCounty) {
     for (const feature of countiesGeoJson.features) {
-        feature.properties.total_cases = casesPerCounty[feature.properties.name] ? casesPerCounty[feature.properties.name].active : 0;
+        feature.properties.total_cases = casesPerCounty[feature.properties.name] ? casesPerCounty[feature.properties.name].cases : 0;
         feature.properties.recovered = casesPerCounty[feature.properties.name] ? casesPerCounty[feature.properties.name].recovered : 0;
         feature.properties.died = casesPerCounty[feature.properties.name] ? casesPerCounty[feature.properties.name].died : 0;
         feature.properties.active = feature.properties.total_cases - feature.properties.recovered - feature.properties.died;
@@ -85,12 +85,12 @@ function sumarizeCases(cases, key) {
     for (const c of cases) {
         if (!casesPerKey[c[key]]) {
             casesPerKey[c[key]] = {
-                active: 0,
+                cases: 0,
                 recovered: 0,
                 died: 0
             };
         }
-        casesPerKey[c[key]].active += +c.new_cases;
+        casesPerKey[c[key]].cases += +c.new_cases;
         casesPerKey[c[key]].recovered += +c.new_recovered;
         casesPerKey[c[key]].died += +c.new_died;
     }
