@@ -1,7 +1,7 @@
 name,cases,recovered,died
-Zagreb,49,3,0
+Zagreb,62,3,0
 Primorsko-goranska,13,2,0
-Varaždinska,6,0,0
+Varaždinska,8,0,0
 Istarska,16,0,1
 Sisačko-moslavačka,3,0,0
 Osječko-baranjska,7,0,0
@@ -9,6 +9,7 @@ Karlovačka,4,0,0
 Krapinsko-zagorska,4,0,0
 Brodsko-posavska,1,0,0
 Zadarska,2,0,0
-Splitsko-dalmatinska,2,0,0
+Splitsko-dalmatinska,3,0,0
 Dubrovačko-neretvanska,1,0,0
-Šibensko-kninska,2,0,0
+Šibensko-kninska,3,0,0
+Ličko-senjska,1,0,0
