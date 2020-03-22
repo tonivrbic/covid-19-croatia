@@ -9,6 +9,9 @@ const converter = require('json-2-csv');
     let casesPerCounty = sumarizeCases(cases, 'county');
     let casesPerCity = sumarizeCases(cases, 'city');
 
+    fs.writeFile('docs/casesPerCity.json', JSON.stringify(casesPerCity));
+    fs.writeFile('docs/casesPerCounty.json', JSON.stringify(casesPerCounty));
+
     await generateCsv(casesPerCity, 'generated/cases_per_city.csv');
     await generateCsv(casesPerCounty, 'generated/cases_per_county.csv');
 
@@ -55,6 +58,8 @@ async function generateCumulativeCasesCsv(casesRecords) {
     console.log('cases:', cases);
     console.log('recovered:', recovered);
     console.log('died:', died);
+
+    fs.writeFile('docs/casesPerDay.json', JSON.stringify(Object.values(casesObject)));
 
     await fs.writeFile('generated/cases_cumulative.csv', await converter.json2csvAsync(Object.values(casesObject)));
 }
