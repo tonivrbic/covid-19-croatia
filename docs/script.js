@@ -2,6 +2,69 @@ var ctx = document.getElementById('casesChart').getContext('2d');
 var ctxLogarithmic = document.getElementById('casesLogarithmicChart').getContext('2d');
 var ctxBar = document.getElementById('casesBarChart').getContext('2d');
 
+var map = L.map('map', {
+    scrollWheelZoom: false
+}).setView([44.505, 16.5], 7);
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+
+fetch('counties_hr_covid.geojson').then(data => {
+    return data.json();
+}).then(geojson => {
+    var max = geojson.features.map(x => x.properties.total_cases)
+        .reduce((a, b) => {
+            return Math.max(a, b);
+        })
+
+    L.geoJSON(geojson, {
+        style: function (feature) {
+            if (feature.properties.total_cases / max == 0) {
+                return {
+                    fillOpacity: 1,
+                    fillColor: "#eeeeee",
+                }
+            } else if (feature.properties.total_cases / max < 0.2) {
+                return {
+                    fillColor: "#ffe0b2",
+                    fillOpacity: 1
+                }
+            } else if (feature.properties.total_cases / max < 0.4) {
+                return {
+                    fillColor: "#ffb74d",
+                    fillOpacity: 1
+                }
+            } else if (feature.properties.total_cases / max < 0.6) {
+                return {
+                    fillColor: "#ff9800",
+                    fillOpacity: 1
+                }
+            } else if (feature.properties.total_cases / max < 0.8) {
+                return {
+                    fillColor: "#f57c00",
+                    fillOpacity: 1
+                }
+            } else {
+                return {
+                    fillColor: "#e65100",
+                    fillOpacity: 1
+                }
+            }
+        }
+    }).bindPopup(function (layer) {
+        return `<div>
+                    <div><strong>${layer.feature.properties.name}</strong></div>
+                    <div>Ukupno: ${layer.feature.properties.total_cases}</div>
+                    <div>Trenutno: ${layer.feature.properties.active}</div>
+                    <div>Ozdravljeni: ${layer.feature.properties.recovered}</div>
+                    <div>Umrli: ${layer.feature.properties.died}</div>
+                </div>`;
+    }).addTo(map);
+})
+
+
+
 fetch('casesPerDay.json').then(data => {
     return data.json();
 }).then(data => {

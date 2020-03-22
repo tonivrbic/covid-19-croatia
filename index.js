@@ -72,6 +72,7 @@ async function generateCountyGeoJson(countiesGeoJson, casesPerCounty) {
         feature.properties.active = feature.properties.total_cases - feature.properties.recovered - feature.properties.died;
     }
     await fs.writeFile('generated/counties_hr_covid.geojson', JSON.stringify(countiesGeoJson));
+    await fs.writeFile('docs/counties_hr_covid.geojson', JSON.stringify(countiesGeoJson));
 }
 
 async function generateCsv(casesObject, path) {
