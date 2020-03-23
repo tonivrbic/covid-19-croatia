@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="hr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Koronavirus u Hrvatskoj</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.6.0/leaflet.css"
+      integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM="
+      crossorigin="anonymous"
+      preload
+    />
+
+    <style>
+      html,
+      body {
+        padding: 0;
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      }
+
+      main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .title {
+        text-align: center;
+        font-size: 2.5em;
+        font-weight: normal;
+        margin: 1em;
+      }
+
+      h2 {
+        padding: 0 0.25em;
+        margin-top: 3em;
+      }
+
+      .statistics-row {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .card {
+        padding: 1em;
+        margin: 1em;
+        border-radius: 12px;
+        min-width: 8em;
+      }
+
+      .card__number {
+        font-size: 5em;
+      }
+
+      .card__desc {
+        font-size: 1.2em;
+      }
+
+      .chart {
+        width: 100vw;
+        height: 50vw;
+        position: relative;
+      }
+
+      .map {
+        margin: 2em 0;
+        width: 100%;
+        height: 50em;
+      }
+
+      @media screen and (min-width: 50em) {
+        .statistics-row {
+          display: flex;
+          width: 100%;
+          flex-direction: row;
+          justify-content: center;
+        }
+
+        .chart {
+          width: 50em;
+          height: 25em;
+          position: relative;
+        }
+      }
+
+      @media screen and (min-width: 80em) {
+        .chart {
+          width: 60em;
+          height: 30em;
+          position: relative;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1 class="title">Koronavirus u Hrvatskoj</h1>
+      <div class="statistics-row">
+        <div class="card" style="background: #FF9800;">
+          <div class="card__number">254</div>
+          <div class="card__desc">Broj zaraženih</div>
+        </div>
+        <div class="card" style="background: #4CAF50;">
+          <div class="card__number">5</div>
+          <div class="card__desc">Broj ozdravljenih</div>
+        </div>
+        <div class="card" style="background: #E53935;">
+          <div class="card__number">1</div>
+          <div class="card__desc">Broj umrlih</div>
+        </div>
+      </div>
+      <div id="map" class="map"></div>
+      <h2>Ukupan broj zaraženih i ozdravljenih</h2>
+      <div class="chart">
+        <canvas id="casesChart"></canvas>
+      </div>
+      <label>
+        Logaritmaski prikaz
+        <input type="checkbox" id="cb-change-view" />
+      </label>
+      <h2>Broj zaraženih i ozdravljenih po danu</h2>
+      <div class="chart">
+        <canvas id="casesBarChart"></canvas>
+      </div>
+
+      <h2>Broj zaraženih i ozdravljenih po županijama</h2>
+      <div class="chart">
+        <canvas id="casesPerCountyBarChart"></canvas>
+      </div>
+    </main>
+  </body>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.6.0/leaflet.js"
+    integrity="sha256-fNoRrwkP2GuYPbNSJmMJOCyfRB2DhPQe0rGTgzRsyso="
+    crossorigin="anonymous"
+    defer
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"
+    integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ="
+    crossorigin="anonymous"
+    defer
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"
+    integrity="sha256-R4pqcOYV8lt7snxMQO/HSbVCFRPMdrhAFMH+vr9giYI="
+    crossorigin="anonymous"
+    defer
+  ></script>
+  <script src="script.js" defer></script>
+</html>
