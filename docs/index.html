@@ -34,7 +34,7 @@
           Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
       }
 
-      body {
+      main {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -42,18 +42,24 @@
 
       .title {
         text-align: center;
-        font-family: arial;
-        font-size: 1.5em;
+        font-size: 2.5em;
+        font-weight: normal;
+        margin: 1em;
+      }
+
+      h2 {
+        margin-top: 3em;
       }
 
       .statistics-row {
         display: flex;
         width: 100%;
-        justify-content: space-evenly;
+        justify-content: center;
       }
 
       .card {
         padding: 1em;
+        margin: 0 2em;
         border-radius: 12px;
         min-width: 8em;
       }
@@ -68,10 +74,15 @@
 
       .chart {
         width: 50em;
-        height: 20em;
+        height: 25em;
         position: relative;
-        padding: 1em;
-        margin-bottom: 5em;
+        /* box-sizing: content-box; */
+        /* padding: 1em; */
+        /* margin-top: 4em; */
+      }
+
+      .chart--large {
+        height: 30em;
       }
 
       .map {
@@ -82,31 +93,41 @@
     </style>
   </head>
   <body>
-    <h1 class="title">Koronavirus u Hrvatskoj</h1>
-    <div class="statistics-row">
-      <div class="card" style="background: #FF9800;">
-        <div class="card__number">254</div>
-        <div class="card__desc">Zaraženi</div>
+    <main>
+      <h1 class="title">Koronavirus u Hrvatskoj</h1>
+      <div class="statistics-row">
+        <div class="card" style="background: #FF9800;">
+          <div class="card__number">254</div>
+          <div class="card__desc">Broj zaraženih</div>
+        </div>
+        <div class="card" style="background: #4CAF50;">
+          <div class="card__number">5</div>
+          <div class="card__desc">Broj ozdravljenih</div>
+        </div>
+        <div class="card" style="background: #E53935;">
+          <div class="card__number">1</div>
+          <div class="card__desc">Broj umrlih</div>
+        </div>
       </div>
-      <div class="card" style="background: #4CAF50;">
-        <div class="card__number">5</div>
-        <div class="card__desc">Ozdravljeni</div>
+      <div id="map" class="map"></div>
+      <h2>Ukupan broj zaraženih i ozdravljenih</h2>
+      <div class="chart">
+        <canvas id="casesChart"></canvas>
       </div>
-      <div class="card" style="background: #E53935;">
-        <div class="card__number">1</div>
-        <div class="card__desc">Umrli</div>
+      <label>
+        Logaritmaski prikaz
+        <input type="checkbox" id="cb-change-view" />
+      </label>
+      <h2>Broj zaraženih i ozdravljenih po danu</h2>
+      <div class="chart">
+        <canvas id="casesBarChart"></canvas>
       </div>
-    </div>
-    <div id="map" class="map"></div>
-    <div class="chart">
-      <canvas id="casesChart" width="400" height="200"></canvas>
-    </div>
-    <div class="chart">
-      <canvas id="casesLogarithmicChart" width="400" height="200"></canvas>
-    </div>
-    <div class="chart">
-      <canvas id="casesBarChart" width="400" height="200"></canvas>
-    </div>
+
+      <h2>Broj zaraženih i ozdravljenih po županijama</h2>
+      <div class="chart chart--large">
+        <canvas id="casesPerCountyBarChart"></canvas>
+      </div>
+    </main>
   </body>
   <script src="script.js"></script>
 </html>
