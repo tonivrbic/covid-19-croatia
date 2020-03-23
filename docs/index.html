@@ -1,30 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Koronavirus Hrvatska</title>
+    <title>Koronavirus u Hrvatskoj</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.6.0/leaflet.css"
       integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM="
       crossorigin="anonymous"
+      preload
     />
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.6.0/leaflet.js"
-      integrity="sha256-fNoRrwkP2GuYPbNSJmMJOCyfRB2DhPQe0rGTgzRsyso="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"
-      integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"
-      integrity="sha256-R4pqcOYV8lt7snxMQO/HSbVCFRPMdrhAFMH+vr9giYI="
-      crossorigin="anonymous"
-    ></script>
+
     <style>
       html,
       body {
@@ -48,18 +35,20 @@
       }
 
       h2 {
+        padding: 0 0.25em;
         margin-top: 3em;
       }
 
       .statistics-row {
         display: flex;
         width: 100%;
+        flex-direction: column;
         justify-content: center;
       }
 
       .card {
         padding: 1em;
-        margin: 0 2em;
+        margin: 1em;
         border-radius: 12px;
         min-width: 8em;
       }
@@ -73,22 +62,38 @@
       }
 
       .chart {
-        width: 50em;
-        height: 25em;
+        width: 100vw;
+        height: 50vw;
         position: relative;
-        /* box-sizing: content-box; */
-        /* padding: 1em; */
-        /* margin-top: 4em; */
-      }
-
-      .chart--large {
-        height: 30em;
       }
 
       .map {
         margin: 2em 0;
         width: 100%;
         height: 50em;
+      }
+
+      @media screen and (min-width: 50em) {
+        .statistics-row {
+          display: flex;
+          width: 100%;
+          flex-direction: row;
+          justify-content: center;
+        }
+
+        .chart {
+          width: 50em;
+          height: 25em;
+          position: relative;
+        }
+      }
+
+      @media screen and (min-width: 80em) {
+        .chart {
+          width: 60em;
+          height: 30em;
+          position: relative;
+        }
       }
     </style>
   </head>
@@ -124,10 +129,28 @@
       </div>
 
       <h2>Broj zaraženih i ozdravljenih po županijama</h2>
-      <div class="chart chart--large">
+      <div class="chart">
         <canvas id="casesPerCountyBarChart"></canvas>
       </div>
     </main>
   </body>
-  <script src="script.js"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.6.0/leaflet.js"
+    integrity="sha256-fNoRrwkP2GuYPbNSJmMJOCyfRB2DhPQe0rGTgzRsyso="
+    crossorigin="anonymous"
+    defer
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"
+    integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ="
+    crossorigin="anonymous"
+    defer
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"
+    integrity="sha256-R4pqcOYV8lt7snxMQO/HSbVCFRPMdrhAFMH+vr9giYI="
+    crossorigin="anonymous"
+    defer
+  ></script>
+  <script src="script.js" defer></script>
 </html>
