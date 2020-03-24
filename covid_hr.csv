@@ -86,18 +86,19 @@ date, new_cases, new_recovered, new_died, county, city
 2020-03-23, 2, 0, 0, Osječko-baranjska, Osijek
 2020-03-23, 1, 0, 0, Zadarska, Zadar
 2020-03-23, 1, 0, 0, Brodsko-posavska, Slavonski brod
-2020-03-24, 15, 0, 0, Zagreb, Zagreb
+2020-03-24, 29, 10, 0, Zagreb, Zagreb
 2020-03-24, 2, 0, 0, Istarska, Pula
 2020-03-24, 4, 0, 0, Primorsko-goranska, Rijeka
 2020-03-24, 1, 0, 0, Sisačko-moslavačka, Sisak
-2020-03-24, 4, 0, 0, Osječko-baranjska, Osijek
+2020-03-24, 10, 0, 0, Osječko-baranjska, Osijek
 2020-03-24, 1, 0, 0, Bjelovarsko-bilogroska, Bjelovar
 2020-03-24, 10, 0, 0, Krapinsko-zagorska, Zabok
-2020-03-24, 2, 0, 0, Šibensko-kninska, Šibenik
+2020-03-24, 3, 0, 0, Šibensko-kninska, Šibenik
 2020-03-24, 3, 0, 0, Splitsko-dalmatinska, Split
 2020-03-24, 1, 0, 0, Međimurska, Međimurje
 2020-03-24, 2, 0, 0, Karlovačka, Karlovac
 2020-03-24, 1, 0, 0, Zagrebačka, Velika Gorica
+2020-03-24, 0, 1, 0, Varaždinska, Varaždin
 
 
 
