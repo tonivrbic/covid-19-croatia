@@ -109,7 +109,7 @@ date, new_cases, new_recovered, new_died, county, city
 2020-03-25, 3, 0, 0, Zadarska, Zadar
 2020-03-25, 6, 0, 0, Splitsko-dalmatinska, Split
 2020-03-25, 2, 0, 0, Dubrovačko-neretvanska, Dubrovnik
-2020-03-25, 1, 0, 0, Međimurska, Međimurska
+2020-03-25, 1, 0, 0, Međimurska, Međimurje
 2020-03-26, 23, 0, 1, Zagreb, Zagreb
 2020-03-26, 1, 0, 0, Primorsko-goranska, Rijeka
 2020-03-26, 3, 0, 0, Istarska, Pula
@@ -119,6 +119,28 @@ date, new_cases, new_recovered, new_died, county, city
 2020-03-26, 11, 0, 0, Splitsko-dalmatinska, Split
 2020-03-26, 1, 0, 0, Dubrovačko-neretvanska, Dubrovnik
 2020-03-26, 3, 0, 0, Krapinsko-zagorska, Zabok
+2020-03-27, 41, 15, 0, Zagreb, Zagreb
+2020-03-27, 4, 0, 0, Varaždinska, Varaždin
+2020-03-27, 9, 0, 0, Istarska, Pula
+2020-03-27, 6, 0, 0, Sisačko-moslavačka, Sisak
+2020-03-27, 4, 0, 0, Osječko-baranjska, Osijek
+2020-03-27, 3, 0, 0, Krapinsko-zagorska, Zabok
+2020-03-27, 1, 0, 1, Brodsko-posavska, Slavonski brod
+2020-03-27, 10, 0, 0, Zadarska, Zadar
+2020-03-27, 10, 0, 0, Splitsko-dalmatinska, Split
+2020-03-27, 1, 0, 0, Dubrovačko-neretvanska, Dubrovnik
+2020-03-27, 1, 0, 0, Bjelovarsko-bilogroska, Bjelovar
+2020-03-27, 1, 0, 0, Vukovarsko-srijemska, Vukovar
+
+
+
+
+
+
+
+
+
+
 
 
 
