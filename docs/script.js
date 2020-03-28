@@ -153,6 +153,7 @@ window.addEventListener("load", () => {
 
       new Chart(ctxBar, {
         type: "bar",
+        labels: ["Zaraženi", "Ozdravljeni"],
         data: {
           datasets: [
             {
@@ -190,6 +191,12 @@ window.addEventListener("load", () => {
                     day: "DD.MM."
                   },
                   unit: "day"
+                },
+                ticks: {
+                  min: new Date("2020-02-24"),
+                  max: new Date(data[data.length - 1].date).setDate(
+                    new Date(data[data.length - 1].date).getDate() + 1
+                  )
                 }
               }
             ]
