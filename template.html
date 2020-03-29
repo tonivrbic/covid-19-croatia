@@ -73,6 +73,18 @@
         height: 50em;
       }
 
+      .map-marker {
+        background: #b71c1c;
+        border-radius: 50%;
+        width: 25px !important;
+        height: 25px !important;
+        border: 1px solid #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+      }
+
       @media screen and (min-width: 50em) {
         .statistics-row {
           display: flex;
@@ -129,7 +141,7 @@
         <canvas id="casesBarChart"></canvas>
       </div>
 
-      <h2>Broj zaraženih i ozdravljenih po županijama</h2>
+      <h2>Broj zaraženih po županijama</h2>
       <div class="chart">
         <canvas id="casesPerCountyBarChart"></canvas>
       </div>

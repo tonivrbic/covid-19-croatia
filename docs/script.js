@@ -84,10 +84,25 @@ window.addEventListener("load", () => {
                     <div>Ukupno: ${layer.feature.properties.total_cases}</div>
                     <div>Trenutno: ${layer.feature.properties.active}</div>
                     <div>Ozdravljeni: ${layer.feature.properties.recovered}</div>
-                    <div>Umrli: ${layer.feature.properties.died}</div>
+                    <div>Preminuli: ${layer.feature.properties.died}</div>
                 </div>`;
         })
         .addTo(map);
+
+      for (const feature of geojson.features) {
+        let shape = L.polygon(feature.geometry.coordinates);
+        let center = shape.getBounds().getCenter();
+        if (feature.properties.name === "Zagrebačka") {
+          center.lat += 0.3;
+          center.lng += 0.1;
+        }
+        L.marker([center.lng, center.lat], {
+          icon: new L.DivIcon({
+            className: "map-marker",
+            html: `<span class="map-marker__number">${feature.properties.total_cases}</span>`
+          })
+        }).addTo(map);
+      }
     });
 
   fetch("casesPerDay.json")
@@ -219,12 +234,12 @@ window.addEventListener("load", () => {
               label: "Zaraženi",
               data: Object.values(data).map(x => x.cases),
               backgroundColor: "rgba(235, 158, 52, 0.7)"
-            },
-            {
-              label: "Ozdravljeni",
-              data: Object.values(data).map(x => x.recovered),
-              backgroundColor: "rgba(0, 171, 9, 0.7)"
             }
+            // {
+            //   label: "Ozdravljeni",
+            //   data: Object.values(data).map(x => x.recovered),
+            //   backgroundColor: "rgba(0, 171, 9, 0.7)"
+            // }
           ]
         },
         options: {
@@ -238,7 +253,8 @@ window.addEventListener("load", () => {
 
   function initMap() {
     var map = L.map("map", {
-      scrollWheelZoom: false
+      scrollWheelZoom: false,
+      maxBounds: L.latLngBounds(L.latLng(40, 12), L.latLng(50, 22))
     }).setView([44.505, 16.5], 7);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       attribution:
