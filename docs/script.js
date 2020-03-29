@@ -246,15 +246,15 @@ window.addEventListener("load", () => {
           legend: {
             position: "bottom"
           },
-          maintainAspectRatio: false
+          maintainAspectRatio: false,
+          aspectRatio: 1
         }
       });
     });
 
   function initMap() {
     var map = L.map("map", {
-      scrollWheelZoom: false,
-      maxBounds: L.latLngBounds(L.latLng(40, 12), L.latLng(50, 22))
+      gestureHandling: true
     }).setView([44.505, 16.5], 7);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       attribution:

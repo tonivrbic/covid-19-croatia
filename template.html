@@ -11,6 +11,11 @@
       crossorigin="anonymous"
       preload
     />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet-gesture-handling/dist/leaflet-gesture-handling.min.css"
+      type="text/css"
+    />
 
     <style>
       html,
@@ -67,6 +72,10 @@
         position: relative;
       }
 
+      .chart--large {
+        height: 80vw;
+      }
+
       .map {
         margin: 2em 0;
         width: 100%;
@@ -93,7 +102,8 @@
           justify-content: center;
         }
 
-        .chart {
+        .chart,
+        .chart--large {
           width: 50em;
           height: 25em;
           position: relative;
@@ -142,7 +152,7 @@
       </div>
 
       <h2>Broj zaraženih po županijama</h2>
-      <div class="chart">
+      <div class="chart chart--large">
         <canvas id="casesPerCountyBarChart"></canvas>
       </div>
     </main>
@@ -162,6 +172,11 @@
   <script
     src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"
     integrity="sha256-R4pqcOYV8lt7snxMQO/HSbVCFRPMdrhAFMH+vr9giYI="
+    crossorigin="anonymous"
+    defer
+  ></script>
+  <script
+    src="https://unpkg.com/leaflet-gesture-handling"
     crossorigin="anonymous"
     defer
   ></script>
