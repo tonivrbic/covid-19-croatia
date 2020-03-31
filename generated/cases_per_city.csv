@@ -1,20 +1,22 @@
 name,cases,recovered,died
-Zagreb,327,61,2
-Rijeka,43,2,0
+Zagreb,345,61,2
+Rijeka,46,2,0
 Varaždin,21,1,0
 Pula,68,0,2
-Sisak,14,0,0
-Osijek,46,0,0
+Sisak,15,0,0
+Osijek,53,0,0
 Karlovac,20,0,1
-Velika Gorica,5,0,0
-Zabok,54,0,0
-Slavonski brod,4,0,1
+Zabok,58,0,0
+Slavonski brod,8,0,1
 Zadar,25,0,0
-Split,88,0,0
-Dubrovnik,30,0,0
-Šibenik,23,0,0
+Split,96,0,0
+Dubrovnik,32,0,0
+Šibenik,24,0,0
 Senj,1,0,0
-Koprivnica,3,0,0
+Koprivnica,4,0,0
 Bjelovar,5,0,0
 Međimurje,2,0,0
-Vukovar,11,0,0
+Vukovar,13,0,0
+Zadarska,7,0,0
+Virovitica,1,0,0
+Požega,1,0,0
