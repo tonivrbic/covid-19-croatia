@@ -196,24 +196,13 @@ date, new_cases, new_recovered, new_died, county, city
 2020-04-01, 3, 0, 0, Šibensko-kninska, Šibenik
 2020-04-01, 37, 0, 0, Splitsko-dalmatinska, Split
 2020-04-01, 11, 0, 0, Dubrovačko-neretvanska, Dubrovnik
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+2020-04-02, 10, 15, 1, Zagreb, Zagreb
+2020-04-02, 2, 0, 0, Primorsko-goranska, Rijeka
+2020-04-02, 1, 0, 0, Varaždinska, Varaždin
+2020-04-02, 2, 0, 0, Istarska, Pula
+2020-04-02, 1, 0, 0, Sisačko-moslavačka, Sisak
+2020-04-02, 5, 0, 0, Osječko-baranjska, Osijek
+2020-04-02, 9, 0, 0, Zadarska, Zadar
+2020-04-02, 10, 0, 0, Splitsko-dalmatinska, Split
+2020-04-02, 2, 0, 0, Šibensko-kninska, Šibenik
+2020-04-02, 6, 0, 0, Zagrebačka, Velika Gorica
