@@ -123,6 +123,10 @@ function sumarizeCases(cases, key) {
     casesPerKey[c[key]].recovered += +c.new_recovered;
     casesPerKey[c[key]].died += +c.new_died;
   }
-  console.table(casesPerKey);
-  return casesPerKey;
+
+  let entries = Object.entries(casesPerKey);
+  let sortedEntries = entries.sort((a, b) => b[1].cases - a[1].cases);
+  var sortedCases = Object.fromEntries(sortedEntries);
+  console.table(sortedCases);
+  return sortedCases;
 }
