@@ -22,4 +22,4 @@ the data might be incorrect (ie. the location and date of a case).
 
 - \*cases from now on have the city set to the capital of the county
 - \*\*all recovered cases from now on are added to Zagreb
-- \*\*\* Ministry from now on reports cases by place of residence, instead of the place where the test was conducted. They started again to report cases for Zagreb countycovid_hr.csv includes negative numbers for this day to align with the new reporting
+- \*\*\* Ministry from now on reports cases by place of residence, instead of the place where the test was conducted. They started again to report cases for Zagreb county (covid_hr.csv includes negative numbers for this day to align with the new reporting).
