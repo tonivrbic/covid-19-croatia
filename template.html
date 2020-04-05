@@ -140,21 +140,21 @@
       <h1 class="title">Koronavirus u Hrvatskoj</h1>
       <small>Zadnji put ažurirano: <%= lastUpdated %></small>
       <div class="statistics-row">
-        <div class="card" style="background: #FF9800;">
+        <div class="card" style="background: #ff9800;">
           <div class="card__number"><%= cases %></div>
-          <div class="card__desc">Broj zaraženih</div>
+          <div class="card__desc">Ukupan broj zaraženih</div>
         </div>
-        <div class="card" style="background: #4CAF50;">
+        <div class="card" style="background: #4caf50;">
           <div class="card__number"><%= recovered %></div>
           <div class="card__desc">Broj ozdravljenih</div>
         </div>
-        <div class="card" style="background: #E53935;">
+        <div class="card" style="background: #e53935;">
           <div class="card__number"><%= died %></div>
           <div class="card__desc">Broj preminulih</div>
         </div>
       </div>
       <div id="map" class="map"></div>
-      <h2>Ukupan broj zaraženih i ozdravljenih</h2>
+      <h2>Ukupan broj zaraženih, ozdravljenih i preminulih</h2>
       <div class="chart">
         <canvas id="casesChart"></canvas>
       </div>
@@ -162,12 +162,12 @@
         Logaritmaski prikaz
         <input type="checkbox" id="cb-change-view" />
       </label>
-      <h2>Broj zaraženih i ozdravljenih po danu</h2>
+      <h2>Broj zaraženih, ozdravljenih i preminulih po danu</h2>
       <div class="chart">
         <canvas id="casesBarChart"></canvas>
       </div>
 
-      <h2>Broj zaraženih po županijama</h2>
+      <h2>Broj zaraženih i preminulih po županijama</h2>
       <div class="chart chart--large">
         <canvas id="casesPerCountyBarChart"></canvas>
       </div>
@@ -215,6 +215,25 @@
           </li>
         </ul>
       </div>
+      <h2>Tablični prikaz</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Županija</th>
+            <th>Ukupno zaraženi</th>
+            <th>Preminuli</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% casesPerCounty.forEach(caseEntry => { %>
+          <tr>
+            <td><%= caseEntry[0] %></td>
+            <td><%= caseEntry[1].cases %></td>
+            <td><%= caseEntry[1].died %></td>
+          </tr>
+          <% }) %>
+        </tbody>
+      </table>
       <h3>Ostalo</h3>
       <div class="box">
         Svi podatci koji se nalaze na ovoj stranici mogu se pronaći na

@@ -7,18 +7,18 @@ window.addEventListener("load", () => {
   var cbChangeView = document.getElementById("cb-change-view");
   var casesChart;
 
-  cbChangeView.addEventListener("change", event => {
+  cbChangeView.addEventListener("change", (event) => {
     if (event.target.checked) {
-      casesChart.options.scales.yAxes.forEach(axe => {
+      casesChart.options.scales.yAxes.forEach((axe) => {
         axe.type = "logarithmic";
         axe.ticks = {
           autoSkipPadding: 20,
           // sampleSize: 20,
-          callback: value => value.toString()
+          callback: (value) => value.toString(),
         };
       });
     } else {
-      casesChart.options.scales.yAxes.forEach(axe => {
+      casesChart.options.scales.yAxes.forEach((axe) => {
         axe.type = "linear";
       });
     }
@@ -28,63 +28,61 @@ window.addEventListener("load", () => {
   var map = initMap();
 
   fetch("counties_hr_covid.geojson")
-    .then(data => {
+    .then((data) => {
       return data.json();
     })
-    .then(geojson => {
+    .then((geojson) => {
       var max = geojson.features
-        .map(x => x.properties.total_cases)
+        .map((x) => x.properties.total_cases)
         .reduce((a, b) => {
           return Math.max(a, b);
         });
 
       L.geoJSON(geojson, {
-        style: function(feature) {
+        style: function (feature) {
           var style = {
             fillOpacity: 1,
             weight: 1,
-            color: "rgba(0,0,0,0.6)"
+            color: "rgba(0,0,0,0.6)",
           };
           if (feature.properties.total_cases / max == 0) {
             return {
               ...style,
-              fillColor: "#eeeeee"
+              fillColor: "#eeeeee",
             };
           } else if (feature.properties.total_cases / max < 0.2) {
             return {
               ...style,
-              fillColor: "#ffe0b2"
+              fillColor: "#ffe0b2",
             };
           } else if (feature.properties.total_cases / max < 0.4) {
             return {
               ...style,
-              fillColor: "#ffb74d"
+              fillColor: "#ffb74d",
             };
           } else if (feature.properties.total_cases / max < 0.6) {
             return {
               ...style,
-              fillColor: "#ff9800"
+              fillColor: "#ff9800",
             };
           } else if (feature.properties.total_cases / max < 0.8) {
             return {
               ...style,
-              fillColor: "#f57c00"
+              fillColor: "#f57c00",
             };
           } else {
             return {
               ...style,
-              fillColor: "#e65100"
+              fillColor: "#e65100",
             };
           }
-        }
+        },
       })
-        .bindPopup(function(layer) {
+        .bindPopup(function (layer) {
           return `<div>
                     <div><strong>${layer.feature.properties.name}</strong></div>
-                    <div>Ukupno: ${layer.feature.properties.total_cases}</div>
-                    <div>Trenutno: ${layer.feature.properties.active}</div>
-                    <div>Ozdravljeni: ${layer.feature.properties.recovered}</div>
-                    <div>Preminuli: ${layer.feature.properties.died}</div>
+                    <div>Ukupno zaraženi: <strong>${layer.feature.properties.total_cases}</strong></div>
+                    <div>Preminuli: <strong>${layer.feature.properties.died}</strong></div>
                 </div>`;
         })
         .addTo(map);
@@ -99,54 +97,67 @@ window.addEventListener("load", () => {
         L.marker([center.lng, center.lat], {
           icon: new L.DivIcon({
             className: "map-marker",
-            html: `<span class="map-marker__number">${feature.properties.total_cases}</span>`
-          })
+            html: `<span class="map-marker__number">${feature.properties.total_cases}</span>`,
+          }),
         }).addTo(map);
       }
     });
 
   fetch("casesPerDay.json")
-    .then(data => {
+    .then((data) => {
       return data.json();
     })
-    .then(data => {
+    .then((data) => {
       var infectedAndRecoveredDatasets = [
         {
           label: "Zaraženi",
-          data: data.map(point => ({
+          data: data.map((point) => ({
             t: new Date(point.date),
-            y: +point.cases
+            y: +point.cases,
           })),
           backgroundColor: ["rgba(0, 0, 0, 0)"],
           borderColor: ["rgba(235, 158, 52, 1)"],
           borderWidth: 3,
           pointBackgroundColor: "rgba(235, 158, 52, 1)",
           pointRadius: 5,
-          pointHoverRadius: 10
+          pointHoverRadius: 10,
         },
         {
           label: "Ozdravljeni",
-          data: data.map(point => ({
+          data: data.map((point) => ({
             t: new Date(point.date),
-            y: +point.recovered
+            y: +point.recovered,
           })),
           backgroundColor: ["rgba(0, 0, 0, 0)"],
           borderColor: ["rgba(0, 171, 9, 1)"],
           borderWidth: 3,
           pointBackgroundColor: "rgba(0, 171, 9, 1)",
           pointRadius: 5,
-          pointHoverRadius: 10
-        }
+          pointHoverRadius: 10,
+        },
+        {
+          label: "Preminuli",
+          data: data.map((point) => ({
+            t: new Date(point.date),
+            y: +point.died,
+          })),
+          backgroundColor: ["rgba(0, 0, 0, 0)"],
+          borderColor: ["rgba(171, 0, 9, 1)"],
+          borderWidth: 3,
+          pointBackgroundColor: "rgba(171, 0, 9, 1)",
+          pointRadius: 5,
+          pointHoverRadius: 10,
+        },
       ];
 
       casesChart = new Chart(ctx, {
         type: "line",
         data: {
-          datasets: infectedAndRecoveredDatasets
+          datasets: infectedAndRecoveredDatasets,
         },
         options: {
           legend: {
-            position: "chartArea"
+            position: "chartArea",
           },
           scales: {
             xAxes: [
@@ -155,45 +166,54 @@ window.addEventListener("load", () => {
                 distribution: "linear",
                 time: {
                   displayFormats: {
-                    day: "DD.MM."
+                    day: "DD.MM.",
                   },
                   tooltipFormat: "DD.MM.YYYY.",
-                  unit: "day"
-                }
-              }
-            ]
-          }
-        }
+                  unit: "day",
+                },
+              },
+            ],
+          },
+        },
       });
 
       new Chart(ctxBar, {
         type: "bar",
-        labels: ["Zaraženi", "Ozdravljeni"],
+        labels: ["Zaraženi", "Ozdravljeni", "Preminuli"],
         data: {
           datasets: [
             {
               label: "Zaraženi",
-              data: data.map(point => ({
+              data: data.map((point) => ({
                 t: new Date(point.date),
-                y: point.new_cases
+                y: point.new_cases,
               })),
               backgroundColor: "rgba(235, 158, 52, 0.7)",
-              borderColor: "rgba(235, 158, 52, 1)"
+              borderColor: "rgba(235, 158, 52, 1)",
             },
             {
               label: "Ozdravljeni",
-              data: data.map(point => ({
+              data: data.map((point) => ({
                 t: new Date(point.date),
-                y: point.new_recovered
+                y: point.new_recovered,
               })),
               backgroundColor: "rgba(0, 171, 9, 0.7)",
-              borderColor: "rgba(0, 171, 9, 1)"
-            }
-          ]
+              borderColor: "rgba(0, 171, 9, 1)",
+            },
+            {
+              label: "Preminuli",
+              data: data.map((point) => ({
+                t: new Date(point.date),
+                y: point.new_died,
+              })),
+              backgroundColor: "rgba(171, 0, 9, 0.7)",
+              borderColor: "rgba(171, 0, 9, 1)",
+            },
+          ],
         },
         options: {
           legend: {
-            position: "bottom"
+            position: "bottom",
           },
           scales: {
             xAxes: [
@@ -203,28 +223,28 @@ window.addEventListener("load", () => {
                 time: {
                   tooltipFormat: "DD.MM.YYYY.",
                   displayFormats: {
-                    day: "DD.MM."
+                    day: "DD.MM.",
                   },
-                  unit: "day"
+                  unit: "day",
                 },
                 ticks: {
                   min: new Date("2020-02-24"),
                   max: new Date(data[data.length - 1].date).setDate(
                     new Date(data[data.length - 1].date).getDate() + 1
-                  )
-                }
-              }
-            ]
-          }
-        }
+                  ),
+                },
+              },
+            ],
+          },
+        },
       });
     });
 
   fetch("casesPerCounty.json")
-    .then(data => {
+    .then((data) => {
       return data.json();
     })
-    .then(data => {
+    .then((data) => {
       new Chart(ctxPerCountyBar, {
         type: "horizontalBar",
         data: {
@@ -232,33 +252,33 @@ window.addEventListener("load", () => {
           datasets: [
             {
               label: "Zaraženi",
-              data: Object.values(data).map(x => x.cases),
-              backgroundColor: "rgba(235, 158, 52, 0.7)"
-            }
-            // {
-            //   label: "Ozdravljeni",
-            //   data: Object.values(data).map(x => x.recovered),
-            //   backgroundColor: "rgba(0, 171, 9, 0.7)"
-            // }
-          ]
+              data: Object.values(data).map((x) => x.cases),
+              backgroundColor: "rgba(235, 158, 52, 0.7)",
+            },
+            {
+              label: "Preminuli",
+              data: Object.values(data).map((x) => x.died),
+              backgroundColor: "rgba(171, 0, 9, 0.7)",
+            },
+          ],
         },
         options: {
           legend: {
-            position: "bottom"
+            position: "bottom",
           },
           maintainAspectRatio: false,
-          aspectRatio: 1
-        }
+          aspectRatio: 1,
+        },
       });
     });
 
   function initMap() {
     var map = L.map("map", {
-      gestureHandling: true
+      gestureHandling: true,
     }).setView([44.505, 16.5], 7);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       attribution:
-        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     }).addTo(map);
     return map;
   }
