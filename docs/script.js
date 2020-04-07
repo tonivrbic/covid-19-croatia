@@ -13,7 +13,6 @@ window.addEventListener("load", () => {
         axe.type = "logarithmic";
         axe.ticks = {
           autoSkipPadding: 20,
-          // sampleSize: 20,
           callback: (value) => value.toString(),
         };
       });
@@ -83,7 +82,7 @@ window.addEventListener("load", () => {
                     <div><strong>${layer.feature.properties.name}</strong></div>
                     <div>Ukupno zaraženi: <strong>${layer.feature.properties.total_cases}</strong></div>
                     <div>Preminuli: <strong>${layer.feature.properties.died}</strong></div>
-                </div>`;
+                  </div>`;
         })
         .addTo(map);
 
@@ -159,6 +158,10 @@ window.addEventListener("load", () => {
           legend: {
             position: "chartArea",
           },
+          tooltips: {
+            mode: "index",
+            position: "nearest",
+          },
           scales: {
             xAxes: [
               {
@@ -214,6 +217,10 @@ window.addEventListener("load", () => {
         options: {
           legend: {
             position: "bottom",
+          },
+          tooltips: {
+            mode: "index",
+            position: "nearest",
           },
           scales: {
             xAxes: [
