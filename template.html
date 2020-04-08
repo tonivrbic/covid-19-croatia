@@ -142,15 +142,19 @@
       <div class="statistics-row">
         <div class="card" style="background: #ff9800;">
           <div class="card__number"><%= cases %></div>
-          <div class="card__desc">Ukupan broj zaraženih</div>
+          <div class="card__desc">Ukupno zaraženi</div>
         </div>
         <div class="card" style="background: #4caf50;">
           <div class="card__number"><%= recovered %></div>
-          <div class="card__desc">Broj ozdravljenih</div>
+          <div class="card__desc">Ozdravljeni</div>
         </div>
         <div class="card" style="background: #e53935;">
           <div class="card__number"><%= died %></div>
-          <div class="card__desc">Broj preminulih</div>
+          <div class="card__desc">Preminuli</div>
+        </div>
+        <div class="card" style="background: #03a9f4;">
+          <div class="card__number"><%= cases - recovered - died %></div>
+          <div class="card__desc">Trenutno zaraženi</div>
         </div>
       </div>
       <div id="map" class="map"></div>
