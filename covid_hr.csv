@@ -269,11 +269,11 @@ date, new_cases, new_recovered, new_died, county, city
 2020-04-07, 3, 0, 0, Koprivničko-križevačka, Koprivnica
 2020-04-07, 1, 0, 0, Međimurska, Međimurje
 2020-04-07, 2, 0, 0, Zagrebačka, Velika Gorica
-2020-04-08, 12, 12, 0, Zagreb, Zagreb
-2020-04-08, 9, 0, 1, Splitsko-dalmatinska, Split
+2020-04-08, 10, 12, 0, Zagreb, Zagreb
+2020-04-08, 26, 0, 1, Splitsko-dalmatinska, Split
 2020-04-08, 6, 0, 0, Zagrebačka, Velika Gorica
 2020-04-08, 3, 0, 0, Krapinsko-zagorska, Zabok
-2020-04-08, 17, 0, 0, Osječko-baranjska, Osijek
+2020-04-08, 2, 0, 0, Osječko-baranjska, Osijek
 2020-04-08, 3, 0, 0, Istarska, Pula
 2020-04-08, 1, 0, 0, Primorsko-goranska, Rijeka
 2020-04-08, 2, 0, 0, Šibensko-kninska, Šibenik
@@ -284,3 +284,15 @@ date, new_cases, new_recovered, new_died, county, city
 2020-04-08, 1, 0, 0, Koprivničko-križevačka, Koprivnica
 2020-04-08, 1, 0, 0, Brodsko-posavska, Slavonski Brod
 2020-04-08, 1, 0, 0, Bjelovarsko-bilogorska, Bjelovar
+2020-04-09, 1, 0, 0, Bjelovarsko-bilogorska, Bjelovar
+2020-04-09, 12, 40, 1, Zagreb, Zagreb
+2020-04-09, 24, 0, 0, Splitsko-dalmatinska, Split
+2020-04-09, 1, 0, 0, Zagrebačka, Velika Gorica
+2020-04-09, 6, 0, 0, Krapinsko-zagorska, Zabok
+2020-04-09, 1, 0, 0, Istarska, Pula
+2020-04-09, 1, 0, 0, Primorsko-goranska, Rijeka
+2020-04-09, 2, 0, 0, Dubrovačko-neretvanska, Dubrovnik
+2020-04-09, 4, 0, 0, Zadarska, Zadar
+2020-04-09, 9, 0, 0, Šibensko-kninska, Šibenik
+2020-04-09, 2, 0, 0, Vukovarsko-srijemska, Vukovar
+2020-04-09, 1, 0, 0, Koprivničko-križevačka, Koprivnica
