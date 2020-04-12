@@ -9,12 +9,9 @@ const converter = require("json-2-csv");
   let cases = await csv().fromFile("covid_hr.csv");
 
   let casesPerCounty = sumarizeCases(cases, "county");
-  let casesPerCity = sumarizeCases(cases, "city");
 
-  fs.writeFile("docs/casesPerCity.json", JSON.stringify(casesPerCity));
   fs.writeFile("docs/casesPerCounty.json", JSON.stringify(casesPerCounty));
 
-  await generateCsv(casesPerCity, "generated/cases_per_city.csv");
   await generateCsv(casesPerCounty, "generated/cases_per_county.csv");
 
   await generateCumulativeCasesCsv(cases);
@@ -41,7 +38,7 @@ async function generateCumulativeCasesCsv(casesRecords) {
         died: died,
         new_cases: +record.new_cases,
         new_recovered: +record.new_recovered,
-        new_died: +record.new_died
+        new_died: +record.new_died,
       };
     } else {
       casesObject[record.date] = {
@@ -52,7 +49,7 @@ async function generateCumulativeCasesCsv(casesRecords) {
         new_cases: casesObject[record.date].new_cases + +record.new_cases,
         new_recovered:
           casesObject[record.date].new_recovered + +record.new_recovered,
-        new_died: casesObject[record.date].new_died + +record.new_died
+        new_died: casesObject[record.date].new_died + +record.new_died,
       };
     }
   }
@@ -67,7 +64,7 @@ async function generateCumulativeCasesCsv(casesRecords) {
   );
 
   await fs.writeFile(
-    "generated/cases_cumulative.csv",
+    "generated/cases_per_day.csv",
     await converter.json2csvAsync(Object.values(casesObject))
   );
 }
@@ -116,7 +113,7 @@ function sumarizeCases(cases, key) {
       casesPerKey[c[key]] = {
         cases: 0,
         recovered: 0,
-        died: 0
+        died: 0,
       };
     }
     casesPerKey[c[key]].cases += +c.new_cases;

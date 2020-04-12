@@ -1,325 +1,337 @@
-date, new_cases, new_recovered, new_died, county, city
-2020-02-25, 1, 0, 0, Zagreb, Zagreb
-2020-02-26, 1, 0, 0, Zagreb, Zagreb
-2020-02-26, 1, 0, 0, Primorsko-goranska, Rijeka
-2020-02-28, 1, 0, 0, Primorsko-goranska, Rijeka
-2020-02-28, 1, 0, 0, Zagreb, Zagreb
-2020-02-29, 1, 0, 0, Primorsko-goranska, Rijeka
-2020-03-01, 1, 0, 0, Primorsko-goranska, Rijeka
-2020-03-02, 1, 0, 0, Primorsko-goranska, Rijeka
-2020-03-03, 1, 0, 0, Varaždinska, Varaždin
-2020-03-04, 1, 0, 0, Varaždinska, Varaždin
-2020-03-06, 1, 0, 0, Varaždinska, Varaždin
-2020-03-07, 1, 0, 0, Varaždinska, Varaždin
-2020-03-09, 1, 0, 0, Istarska, Pula
-2020-03-10, 1, 0, 0, Istarska, Pula
-2020-03-10, 1, 0, 0, Zagreb, Zagreb
-2020-03-11, 4, 0, 0, Zagreb, Zagreb
-2020-03-12, 2, 0, 0, Sisačko-moslavačka, Sisak
-2020-03-12, 1, 1, 0, Zagreb, Zagreb
-2020-03-12, 3, 0, 0, Primorsko-goranska, Rijeka
-2020-03-12, 2, 0, 0, Istarska, Pula
-2020-03-13, 2, 0, 0, Istarska, Pula
-2020-03-13, 3, 0, 0, Zagreb, Zagreb
-2020-03-14, 3, 1, 0, Zagreb, Zagreb
-2020-03-14, 1, 0, 0, Varaždinska, Varaždin
-2020-03-14, 1, 0, 0, Primorsko-goranska, Rijeka
-2020-03-14, 2, 0, 0, Osječko-baranjska, Osijek
-2020-03-15, 5, 0, 0, Zagreb, Zagreb
-2020-03-15, 5, 0, 0, Osječko-baranjska, Osijek
-2020-03-15, 0, 1, 0, Primorsko-goranska, Rijeka
-2020-03-16, 5, 0, 0, Zagreb, Zagreb
-2020-03-16, 1, 0, 0, Primorsko-goranska, Rijeka
-2020-03-16, 1, 0, 0, Karlovačka, Karlovac
-2020-03-16, 0, 1, 0, Zagreb, Zagreb
-2020-03-17, 0, 1, 0, Primorsko-goranska, Rijeka
-2020-03-17, 8, 0, 0, Zagreb, Zagreb
-2020-03-17, 1, 0, 0, Krapinsko-zagorska, Zabok
-2020-03-17, 1, 0, 0, Sisačko-moslavačka, Sisak
-2020-03-17, 1, 0, 0, Brodsko-posavska, Slavonski Brod
-2020-03-17, 2, 0, 0, Primorsko-goranska, Rijeka
-2020-03-18, 1, 0, 0, Primorsko-goranska, Rijeka
-2020-03-18, 3, 0, 0, Istarska, Pula
-2020-03-18, 1, 0, 0, Zadarska, Zadar
-2020-03-18, 2, 0, 0, Karlovačka, Karlovac
-2020-03-18, 1, 0, 0, Varaždinska, Varaždin
-2020-03-18, 8, 0, 0, Zagreb, Zagreb
-2020-03-18, 2, 0, 0, Splitsko-dalmatinska, Split
-2020-03-19, 8, 0, 0, Zagreb, Zagreb
-2020-03-19, 1, 0, 0, Dubrovačko-neretvanska, Dubrovnik
-2020-03-19, 7, 0, 1, Istarska, Pula
-2020-03-19, 2, 0, 0, Šibensko-kninska, Šibenik
-2020-03-19, 1, 0, 0, Zadarska, Zadar
-2020-03-19, 3, 0, 0, Krapinsko-zagorska, Zabok
-2020-03-19, 1, 0, 0, Karlovačka, Karlovac
-2020-03-20, 13, 0, 0, Zagreb, Zagreb
-2020-03-20, 1, 0, 0, Splitsko-dalmatinska, Split
-2020-03-20, 1, 0, 0, Šibensko-kninska, Šibenik
-2020-03-20, 2, 0, 0, Varaždinska, Varaždin
-2020-03-20, 1, 0, 0, Ličko-senjska, Senj
-2020-03-21, 1, 0, 0, Šibensko-kninska, Šibenik
-2020-03-21, 4, 0, 0, Splitsko-dalmatinska, Split
-2020-03-21, 13, 0, 0, Dubrovačko-neretvanska, Dubrovnik
-2020-03-21, 9, 0, 0, Istarska, Pula
-2020-03-21, 25, 0, 0, Zagreb, Zagreb
-2020-03-21, 10, 0, 0, Krapinsko-zagorska, Zabok
-2020-03-21, 2, 0, 0, Varaždinska, Varaždin
-2020-03-21, 1, 0, 0, Koprivničko-križevačka, Koprivnica
-2020-03-21, 8, 0, 0, Karlovačka, Karlovac
-2020-03-21, 5, 0, 0, Primorsko-goranska, Rijeka
-2020-03-22, 3, 0, 0, Primorsko-goranska, Rijeka
-2020-03-22, 1, 0, 0, Istarska, Pula
-2020-03-22, 2, 0, 0, Šibensko-kninska, Šibenik
-2020-03-22, 1, 0, 0, Sisačko-moslavačka, Sisak
-2020-03-22, 4, 0, 0, Krapinsko-zagorska, Zabok
-2020-03-22, 1, 0, 0, Varaždinska, Varaždin
-2020-03-22, 35, 0, 0, Zagreb, Zagreb
-2020-03-22, 1, 0, 0, Bjelovarsko-bilogorska, Bjelovar
-2020-03-23, 28, 0, 0, Zagreb, Zagreb
-2020-03-23, 6, 0, 0, Istarska, Pula
-2020-03-23, 3, 0, 0, Primorsko-goranska, Rijeka
-2020-03-23, 5, 0, 0, Dubrovačko-neretvanska, Dubrovnik
-2020-03-23, 7, 0, 0, Splitsko-dalmatinska, Split
-2020-03-23, 2, 0, 0, Karlovačka, Karlovac
-2020-03-23, 6, 0, 0, Šibensko-kninska, Šibenik
-2020-03-23, 2, 0, 0, Osječko-baranjska, Osijek
-2020-03-23, 1, 0, 0, Zadarska, Zadar
-2020-03-23, 1, 0, 0, Brodsko-posavska, Slavonski Brod
-2020-03-24, 30, 10, 0, Zagreb, Zagreb
-2020-03-24, 2, 0, 0, Istarska, Pula
-2020-03-24, 4, 0, 0, Primorsko-goranska, Rijeka
-2020-03-24, 1, 0, 0, Sisačko-moslavačka, Sisak
-2020-03-24, 10, 0, 0, Osječko-baranjska, Osijek
-2020-03-24, 1, 0, 0, Bjelovarsko-bilogorska, Bjelovar
-2020-03-24, 10, 0, 0, Krapinsko-zagorska, Zabok
-2020-03-24, 3, 0, 0, Šibensko-kninska, Šibenik
-2020-03-24, 3, 0, 0, Splitsko-dalmatinska, Split
-2020-03-24, 1, 0, 0, Međimurska, Međimurje
-2020-03-24, 2, 0, 0, Karlovačka, Karlovac
-2020-03-24, 0, 1, 0, Varaždinska, Varaždin
-2020-03-25, 25, 6, 0, Zagreb, Zagreb
-2020-03-25, 6, 0, 0, Osječko-baranjska, Osijek
-2020-03-25, 1, 0, 0, Vukovarsko-srijemska, Vukovar
-2020-03-25, 5, 0, 0, Krapinsko-zagorska, Zabok
-2020-03-25, 2, 0, 0, Karlovačka, Karlovac
-2020-03-25, 6, 0, 0, Primorsko-goranska, Rijeka
-2020-03-25, 3, 0, 0, Istarska, Pula
-2020-03-25, 3, 0, 0, Zadarska, Zadar
-2020-03-25, 6, 0, 0, Splitsko-dalmatinska, Split
-2020-03-25, 2, 0, 0, Dubrovačko-neretvanska, Dubrovnik
-2020-03-25, 1, 0, 0, Međimurska, Međimurje
-2020-03-26, 23, 0, 1, Zagreb, Zagreb
-2020-03-26, 1, 0, 0, Primorsko-goranska, Rijeka
-2020-03-26, 3, 0, 0, Istarska, Pula
-2020-03-26, 3, 0, 0, Varaždinska, Varaždin
-2020-03-26, 2, 0, 0, Sisačko-moslavačka, Sisak
-2020-03-26, 6, 0, 0, Osječko-baranjska, Osijek
-2020-03-26, 11, 0, 0, Splitsko-dalmatinska, Split
-2020-03-26, 1, 0, 0, Dubrovačko-neretvanska, Dubrovnik
-2020-03-26, 3, 0, 0, Krapinsko-zagorska, Zabok
-2020-03-27, 41, 15, 0, Zagreb, Zagreb
-2020-03-27, 4, 0, 0, Varaždinska, Varaždin
-2020-03-27, 9, 0, 0, Istarska, Pula
-2020-03-27, 6, 0, 0, Sisačko-moslavačka, Sisak
-2020-03-27, 4, 0, 0, Osječko-baranjska, Osijek
-2020-03-27, 3, 0, 0, Krapinsko-zagorska, Zabok
-2020-03-27, 1, 0, 1, Brodsko-posavska, Slavonski Brod
-2020-03-27, 10, 0, 0, Zadarska, Zadar
-2020-03-27, 10, 0, 0, Splitsko-dalmatinska, Split
-2020-03-27, 1, 0, 0, Dubrovačko-neretvanska, Dubrovnik
-2020-03-27, 1, 0, 0, Bjelovarsko-bilogorska, Bjelovar
-2020-03-27, 1, 0, 0, Vukovarsko-srijemska, Vukovar
-2020-03-28, 17, 12, 0, Zagreb, Zagreb
-2020-03-28, 3, 0, 0, Primorsko-goranska, Rijeka
-2020-03-28, 1, 0, 0, Varaždinska, Varaždin
-2020-03-28, 11, 0, 1, Istarska, Pula
-2020-03-28, 4, 0, 0, Osječko-baranjska, Osijek
-2020-03-28, 2, 0, 0, Zadarska, Zadar
-2020-03-28, 17, 0, 0, Splitsko-dalmatinska, Split
-2020-03-28, 5, 0, 0, Dubrovačko-neretvanska, Dubrovnik
-2020-03-28, 7, 0, 0, Šibensko-kninska, Šibenik
-2020-03-28, 1, 0, 0, Koprivničko-križevačka, Koprivnica
-2020-03-28, 2, 0, 0, Bjelovarsko-bilogorska, Bjelovar
-2020-03-28, 1, 0, 0, Vukovarsko-srijemska, Vukovar
-2020-03-28, 0, 0, 1, Karlovačka, Karlovac
-2020-03-29, 23, 3, 1, Zagreb, Zagreb
-2020-03-29, 5, 0, 0, Istarska, Pula
-2020-03-29, 3, 0, 0, Osječko-baranjska, Osijek
-2020-03-29, 2, 0, 0, Karlovačka, Karlovac
-2020-03-29, 10, 0, 0, Krapinsko-zagorska, Zabok
-2020-03-29, 1, 0, 0, Dubrovačko-neretvanska, Dubrovnik
-2020-03-29, 1, 0, 0, Šibensko-kninska, Šibenik
-2020-03-29, 1, 0, 0, Koprivničko-križevačka, Koprivnica
-2020-03-29, 4, 0, 0, Vukovarsko-srijemska, Vukovar
-2020-03-29, 6, 0, 0, Splitsko-dalmatinska, Split
-2020-03-30, 23, 12, 0, Zagreb, Zagreb
-2020-03-30, 5, 0, 0, Primorsko-goranska, Rijeka
-2020-03-30, 2, 0, 0, Varaždinska, Varaždin
-2020-03-30, 3, 0, 0, Istarska, Pula
-2020-03-30, 1, 0, 0, Sisačko-moslavačka, Sisak
-2020-03-30, 4, 0, 0, Osječko-baranjska, Osijek
-2020-03-30, 5, 0, 0, Krapinsko-zagorska, Zabok
-2020-03-30, 1, 0, 0, Brodsko-posavska, Slavonski Brod
-2020-03-30, 7, 0, 0, Zadarska, Zadar
-2020-03-30, 21, 0, 0, Splitsko-dalmatinska, Split
-2020-03-30, 1, 0, 0, Dubrovačko-neretvanska, Dubrovnik
-2020-03-30, 4, 0, 0, Vukovarsko-srijemska, Vukovar
-2020-03-31, 30, 3, 0, Zagreb, Zagreb
-2020-03-31, 3, 0, 0, Primorsko-goranska, Rijeka
-2020-03-31, 1, 0, 0, Sisačko-moslavačka, Sisak
-2020-03-31, 11, 0, 0, Osječko-baranjska, Osijek
-2020-03-31, 5, 0, 0, Krapinsko-zagorska, Zabok
-2020-03-31, 4, 0, 0, Brodsko-posavska, Slavonski Brod
-2020-03-31, 7, 0, 0, Zadarska, Zadar
-2020-03-31, 8, 0, 0, Splitsko-dalmatinska, Split
-2020-03-31, 2, 0, 0, Dubrovačko-neretvanska, Dubrovnik
-2020-03-31, 1, 0, 0, Šibensko-kninska, Šibenik
-2020-03-31, 1, 0, 0, Koprivničko-križevačka, Koprivnica
-2020-03-31, 2, 0, 0, Vukovarsko-srijemska, Vukovar
-2020-03-31, 1, 0, 0, Virovitičko-podravska, Virovitica
-2020-03-31, 1, 0, 0, Požeško-slavonska, Požega
-2020-04-01, -93, 6, 0, Zagreb, Zagreb
-2020-04-01, -1, 0, 0, Sisačko-moslavačka, Sisak
-2020-04-01, 82, 0, 0, Zagrebačka, Velika Gorica
-2020-04-01, 2, 0, 0, Požeško-slavonska, Požega
-2020-04-01, 3, 0, 0, Virovitičko-podravska, Virovitica
-2020-04-01, 3, 0, 0, Brodsko-posavska, Slavonski Brod
-2020-04-01, 6, 0, 0, Osječko-baranjska, Osijek
-2020-04-01, 2, 0, 0, Bjelovarsko-bilogorska, Bjelovar
-2020-04-01, 8, 0, 0, Koprivničko-križevačka, Koprivnica
-2020-04-01, 5, 0, 0, Varaždinska, Varaždin
-2020-04-01, 6, 0, 0, Krapinsko-zagorska, Zabok
-2020-04-01, 14, 0, 0, Primorsko-goranska, Rijeka
-2020-04-01, 3, 0, 0, Istarska, Pula
-2020-04-01, 1, 0, 0, Ličko-senjska, Senj
-2020-04-01, 4, 0, 0, Zadarska, Zadar
-2020-04-01, 3, 0, 0, Šibensko-kninska, Šibenik
-2020-04-01, 37, 0, 0, Splitsko-dalmatinska, Split
-2020-04-01, 11, 0, 0, Dubrovačko-neretvanska, Dubrovnik
-2020-04-02, 10, 15, 1, Zagreb, Zagreb
-2020-04-02, 2, 0, 0, Primorsko-goranska, Rijeka
-2020-04-02, 1, 0, 0, Varaždinska, Varaždin
-2020-04-02, 2, 0, 0, Istarska, Pula
-2020-04-02, 1, 0, 0, Sisačko-moslavačka, Sisak
-2020-04-02, 5, 0, 0, Osječko-baranjska, Osijek
-2020-04-02, 9, 0, 0, Zadarska, Zadar
-2020-04-02, 10, 0, 0, Splitsko-dalmatinska, Split
-2020-04-02, 2, 0, 0, Šibensko-kninska, Šibenik
-2020-04-02, 6, 0, 0, Zagrebačka, Velika Gorica
-2020-04-03, 19, 4, 1, Zagreb, Zagreb
-2020-04-03, 11, 0, 0, Splitsko-dalmatinska, Split
-2020-04-03, 1, 0, 0, Zagrebačka, Velika Gorica
-2020-04-03, 3, 0, 0, Osječko-baranjska, Osijek
-2020-04-03, 4, 0, 0, Krapinsko-zagorska, Zabok
-2020-04-03, 1, 0, 0, Primorsko-goranska, Rijeka
-2020-04-03, 2, 0, 0, Zadarska, Zadar
-2020-04-03, 12, 0, 0, Dubrovačko-neretvanska, Dubrovnik
-2020-04-03, 1, 0, 0, Karlovačka, Karlovac
-2020-04-03, 4, 0, 0, Sisačko-moslavačka, Sisak
-2020-04-03, 3, 0, 0, Vukovarsko-srijemska, Vukovar
-2020-04-03, 4, 0, 0, Koprivničko-križevačka, Koprivnica
-2020-04-03, 2, 0, 0, Brodsko-posavska, Slavonski Brod
-2020-04-03, 1, 0, 0, Bjelovarsko-bilogorska, Bjelovar
-2020-04-04, 6, 0, 4, Osječko-baranjska, Osijek
-2020-04-04, 14, 27, 0, Zagreb, Zagreb
-2020-04-04, 4, 0, 0, Splitsko-dalmatinska, Split
-2020-04-04, 3, 0, 0, Zagrebačka, Velika Gorica
-2020-04-04, 7, 0, 0, Krapinsko-zagorska, Zabok
-2020-04-04, 2, 0, 0, Primorsko-goranska, Rijeka
-2020-04-04, 4, 0, 0, Dubrovačko-neretvanska, Dubrovnik
-2020-04-04, 1, 0, 0, Zadarska, Zadar
-2020-04-04, 1, 0, 0, Sisačko-moslavačka, Sisak
-2020-04-04, 2, 0, 0, Vukovarsko-srijemska, Vukovar
-2020-04-04, 1, 0, 0, Brodsko-posavska, Slavonski Brod
-2020-04-04, 2, 0, 0, Međimurska, Međimurje
-2020-04-05, 19, 6, 0, Zagreb, Zagreb
-2020-04-05, 7, 0, 0, Splitsko-dalmatinska, Split
-2020-04-05, 1, 0, 0, Zagrebačka, Velika Gorica
-2020-04-05, 0, 0, 1, Osječko-baranjska, Osijek
-2020-04-05, 4, 0, 0, Krapinsko-zagorska, Zabok
-2020-04-05, 2, 0, 0, Istarska, Pula
-2020-04-05, 1, 0, 0, Primorsko-goranska, Rijeka
-2020-04-05, 3, 0, 1, Dubrovačko-neretvanska, Dubrovnik
-2020-04-05, 4, 0, 1, Zadarska, Zadar
-2020-04-05, 6, 0, 0, Šibensko-kninska, Šibenik
-2020-04-05, 4, 0, 0, Varaždinska, Varaždin
-2020-04-05, 3, 0, 0, Vukovarsko-srijemska, Vukovar
-2020-04-05, 1, 0, 0, Brodsko-posavska, Slavonski Brod
-2020-04-05, 1, 0, 0, Bjelovarsko-bilogorska, Bjelovar
-2020-04-06, 15, 5, 1, Zagreb, Zagreb
-2020-04-06, 16, 0, 0, Splitsko-dalmatinska, Split
-2020-04-06, 1, 0, 0, Primorsko-goranska, Rijeka
-2020-04-06, 1, 0, 0, Dubrovačko-neretvanska, Dubrovnik
-2020-04-06, 2, 0, 0, Varaždinska, Varaždin
-2020-04-06, 3, 0, 0, Vukovarsko-srijemska, Vukovar
-2020-04-06, 1, 0, 0, Brodsko-posavska, Slavonski Brod
-2020-04-06, 1, 0, 0, Međimurska, Međimurje
-2020-04-07, 14, 37, 1, Zagreb, Zagreb
-2020-04-07, 7, 0, 1, Šibensko-kninska, Šibenik
-2020-04-07, 15, 0, 0, Splitsko-dalmatinska, Split
-2020-04-07, 3, 0, 0, Krapinsko-zagorska, Zabok
-2020-04-07, 2, 0, 0, Osječko-baranjska, Osijek
-2020-04-07, 1, 0, 0, Istarska, Pula
-2020-04-07, 1, 0, 0, Primorsko-goranska, Rijeka
-2020-04-07, 4, 0, 0, Zadarska, Zadar
-2020-04-07, 4, 0, 0, Vukovarsko-srijemska, Vukovar
-2020-04-07, 1, 0, 0, Karlovačka, Karlovac
-2020-04-07, 1, 0, 0, Sisačko-moslavačka, Sisak
-2020-04-07, 1, 0, 0, Brodsko-posavska, Slavonski Brod
-2020-04-07, 3, 0, 0, Koprivničko-križevačka, Koprivnica
-2020-04-07, 1, 0, 0, Međimurska, Međimurje
-2020-04-07, 2, 0, 0, Zagrebačka, Velika Gorica
-2020-04-08, 10, 12, 0, Zagreb, Zagreb
-2020-04-08, 26, 0, 1, Splitsko-dalmatinska, Split
-2020-04-08, 6, 0, 0, Zagrebačka, Velika Gorica
-2020-04-08, 3, 0, 0, Krapinsko-zagorska, Zabok
-2020-04-08, 2, 0, 0, Osječko-baranjska, Osijek
-2020-04-08, 3, 0, 0, Istarska, Pula
-2020-04-08, 1, 0, 0, Primorsko-goranska, Rijeka
-2020-04-08, 2, 0, 0, Šibensko-kninska, Šibenik
-2020-04-08, 2, 0, 0, Varaždinska, Varaždin
-2020-04-08, 1, 0, 0, Vukovarsko-srijemska, Vukovar
-2020-04-08, 1, 0, 0, Karlovačka, Karlovac
-2020-04-08, 1, 0, 0, Sisačko-moslavačka, Sisak
-2020-04-08, 1, 0, 0, Koprivničko-križevačka, Koprivnica
-2020-04-08, 1, 0, 0, Brodsko-posavska, Slavonski Brod
-2020-04-08, 1, 0, 0, Bjelovarsko-bilogorska, Bjelovar
-2020-04-09, 1, 0, 0, Bjelovarsko-bilogorska, Bjelovar
-2020-04-09, 12, 40, 1, Zagreb, Zagreb
-2020-04-09, 24, 0, 0, Splitsko-dalmatinska, Split
-2020-04-09, 1, 0, 0, Zagrebačka, Velika Gorica
-2020-04-09, 6, 0, 0, Krapinsko-zagorska, Zabok
-2020-04-09, 1, 0, 0, Istarska, Pula
-2020-04-09, 1, 0, 0, Primorsko-goranska, Rijeka
-2020-04-09, 2, 0, 0, Dubrovačko-neretvanska, Dubrovnik
-2020-04-09, 4, 0, 0, Zadarska, Zadar
-2020-04-09, 9, 0, 0, Šibensko-kninska, Šibenik
-2020-04-09, 2, 0, 0, Vukovarsko-srijemska, Vukovar
-2020-04-09, 2, 0, 0, Koprivničko-križevačka, Koprivnica
-2020-04-10, 11, 12, 0, Zagreb, Zagreb
-2020-04-10, 45, 0, 1, Splitsko-dalmatinska, Split
-2020-04-10, 5, 0, 0, Zagrebačka, Velika Gorica
-2020-04-10, 2, 0, 0, Krapinsko-zagorska, Zabok
-2020-04-10, 1, 0, 0, Osječko-baranjska, Osijek
-2020-04-10, 1, 0, 0, Istarska, Pula
-2020-04-10, 3, 0, 0, Primorsko-goranska, Rijeka
-2020-04-10, 4, 0, 0, Dubrovačko-neretvanska, Dubrovnik
-2020-04-10, 3, 0, 0, Zadarska, Zadar
-2020-04-10, 5, 0, 0, Šibensko-kninska, Šibenik
-2020-04-10, 1, 0, 0, Vukovarsko-srijemska, Vukovar
-2020-04-10, 1, 0, 0, Karlovačka, Karlovac
-2020-04-10, 2, 0, 0, Sisačko-moslavačka, Sisak
-2020-04-10, 1, 0, 0, Koprivničko-križevačka, Koprivnica
-2020-04-10, 1, 0, 0, Međimurska, Međimurje
-2020-04-10, 1, 0, 0, Ličko-senjska, Senj
-2020-04-11, 7, 92, 0, Zagreb, Zagreb
-2020-04-11, 11, 0, 0, Splitsko-dalmatinska, Split
-2020-04-11, 2, 0, 0, Zagrebačka, Velika Gorica
-2020-04-11, 2, 0, 0, Krapinsko-zagorska, Zabok
-2020-04-11, 2, 0, 0, Istarska, Pula
-2020-04-11, 2, 0, 0, Dubrovačko-neretvanska, Dubrovnik
-2020-04-11, 4, 0, 0, Zadarska, Zadar
-2020-04-11, 3, 0, 0, Šibensko-kninska, Šibenik
-2020-04-11, 1, 0, 0, Vukovarsko-srijemska, Vukovar
-2020-04-11, 3, 0, 0, Sisačko-moslavačka, Sisak
-2020-04-11, 2, 0, 0, Karlovačka, Karlovac
+date, new_cases, new_recovered, new_died, county
+2020-02-25,1,0,0, Zagreb
+2020-02-26,1,0,0, Zagreb
+2020-02-26,1,0,0, Primorsko-goranska
+2020-02-28,1,0,0, Primorsko-goranska
+2020-02-28,1,0,0, Zagreb
+2020-02-29,1,0,0, Primorsko-goranska
+2020-03-01,1,0,0, Primorsko-goranska
+2020-03-02,1,0,0, Primorsko-goranska
+2020-03-03,1,0,0, Varaždinska
+2020-03-04,1,0,0, Varaždinska
+2020-03-06,1,0,0, Varaždinska
+2020-03-07,1,0,0, Varaždinska
+2020-03-09,1,0,0, Istarska
+2020-03-10,1,0,0, Istarska
+2020-03-10,1,0,0, Zagreb
+2020-03-11,4,0,0, Zagreb
+2020-03-12,2,0,0, Sisačko-moslavačka
+2020-03-12,1,1,0, Zagreb
+2020-03-12,3,0,0, Primorsko-goranska
+2020-03-12,2,0,0, Istarska
+2020-03-13,2,0,0, Istarska
+2020-03-13,3,0,0, Zagreb
+2020-03-14,3,1,0, Zagreb
+2020-03-14,1,0,0, Varaždinska
+2020-03-14,1,0,0, Primorsko-goranska
+2020-03-14,2,0,0, Osječko-baranjska
+2020-03-15,5,0,0, Zagreb
+2020-03-15,5,0,0, Osječko-baranjska
+2020-03-15,0,1,0, Primorsko-goranska
+2020-03-16,5,0,0, Zagreb
+2020-03-16,1,0,0, Primorsko-goranska
+2020-03-16,1,0,0, Karlovačka
+2020-03-16,0,1,0, Zagreb
+2020-03-17,0,1,0, Primorsko-goranska
+2020-03-17,8,0,0, Zagreb
+2020-03-17,1,0,0, Krapinsko-zagorska
+2020-03-17,1,0,0, Sisačko-moslavačka
+2020-03-17,1,0,0, Brodsko-posavska
+2020-03-17,2,0,0, Primorsko-goranska
+2020-03-18,1,0,0, Primorsko-goranska
+2020-03-18,3,0,0, Istarska
+2020-03-18,1,0,0, Zadarska
+2020-03-18,2,0,0, Karlovačka
+2020-03-18,1,0,0, Varaždinska
+2020-03-18,8,0,0, Zagreb
+2020-03-18,2,0,0, Splitsko-dalmatinska
+2020-03-19,8,0,0, Zagreb
+2020-03-19,1,0,0, Dubrovačko-neretvanska
+2020-03-19,7,0,1, Istarska
+2020-03-19,2,0,0, Šibensko-kninska
+2020-03-19,1,0,0, Zadarska
+2020-03-19,3,0,0, Krapinsko-zagorska
+2020-03-19,1,0,0, Karlovačka
+2020-03-20,13,0,0, Zagreb
+2020-03-20,1,0,0, Splitsko-dalmatinska
+2020-03-20,1,0,0, Šibensko-kninska
+2020-03-20,2,0,0, Varaždinska
+2020-03-20,1,0,0, Ličko-senjska
+2020-03-21,1,0,0, Šibensko-kninska
+2020-03-21,4,0,0, Splitsko-dalmatinska
+2020-03-21,13,0,0, Dubrovačko-neretvanska
+2020-03-21,9,0,0, Istarska
+2020-03-21,25,0,0, Zagreb
+2020-03-21,10,0,0, Krapinsko-zagorska
+2020-03-21,2,0,0, Varaždinska
+2020-03-21,1,0,0, Koprivničko-križevačka
+2020-03-21,8,0,0, Karlovačka
+2020-03-21,5,0,0, Primorsko-goranska
+2020-03-22,3,0,0, Primorsko-goranska
+2020-03-22,1,0,0, Istarska
+2020-03-22,2,0,0, Šibensko-kninska
+2020-03-22,1,0,0, Sisačko-moslavačka
+2020-03-22,4,0,0, Krapinsko-zagorska
+2020-03-22,1,0,0, Varaždinska
+2020-03-22,35,0,0, Zagreb
+2020-03-22,1,0,0, Bjelovarsko-bilogorska
+2020-03-23,28,0,0, Zagreb
+2020-03-23,6,0,0, Istarska
+2020-03-23,3,0,0, Primorsko-goranska
+2020-03-23,5,0,0, Dubrovačko-neretvanska
+2020-03-23,7,0,0, Splitsko-dalmatinska
+2020-03-23,2,0,0, Karlovačka
+2020-03-23,6,0,0, Šibensko-kninska
+2020-03-23,2,0,0, Osječko-baranjska
+2020-03-23,1,0,0, Zadarska
+2020-03-23,1,0,0, Brodsko-posavska
+2020-03-24,30,10,0, Zagreb
+2020-03-24,2,0,0, Istarska
+2020-03-24,4,0,0, Primorsko-goranska
+2020-03-24,1,0,0, Sisačko-moslavačka
+2020-03-24,10,0,0, Osječko-baranjska
+2020-03-24,1,0,0, Bjelovarsko-bilogorska
+2020-03-24,10,0,0, Krapinsko-zagorska
+2020-03-24,3,0,0, Šibensko-kninska
+2020-03-24,3,0,0, Splitsko-dalmatinska
+2020-03-24,1,0,0, Međimurska
+2020-03-24,2,0,0, Karlovačka
+2020-03-24,0,1,0, Varaždinska
+2020-03-25,25,6,0, Zagreb
+2020-03-25,6,0,0, Osječko-baranjska
+2020-03-25,1,0,0, Vukovarsko-srijemska
+2020-03-25,5,0,0, Krapinsko-zagorska
+2020-03-25,2,0,0, Karlovačka
+2020-03-25,6,0,0, Primorsko-goranska
+2020-03-25,3,0,0, Istarska
+2020-03-25,3,0,0, Zadarska
+2020-03-25,6,0,0, Splitsko-dalmatinska
+2020-03-25,2,0,0, Dubrovačko-neretvanska
+2020-03-25,1,0,0, Međimurska
+2020-03-26,23,0,1, Zagreb
+2020-03-26,1,0,0, Primorsko-goranska
+2020-03-26,3,0,0, Istarska
+2020-03-26,3,0,0, Varaždinska
+2020-03-26,2,0,0, Sisačko-moslavačka
+2020-03-26,6,0,0, Osječko-baranjska
+2020-03-26,11,0,0, Splitsko-dalmatinska
+2020-03-26,1,0,0, Dubrovačko-neretvanska
+2020-03-26,3,0,0, Krapinsko-zagorska
+2020-03-27,41,15,0, Zagreb
+2020-03-27,4,0,0, Varaždinska
+2020-03-27,9,0,0, Istarska
+2020-03-27,6,0,0, Sisačko-moslavačka
+2020-03-27,4,0,0, Osječko-baranjska
+2020-03-27,3,0,0, Krapinsko-zagorska
+2020-03-27,1,0,1, Brodsko-posavska
+2020-03-27,10,0,0, Zadarska
+2020-03-27,10,0,0, Splitsko-dalmatinska
+2020-03-27,1,0,0, Dubrovačko-neretvanska
+2020-03-27,1,0,0, Bjelovarsko-bilogorska
+2020-03-27,1,0,0, Vukovarsko-srijemska
+2020-03-28,17,12,0, Zagreb
+2020-03-28,3,0,0, Primorsko-goranska
+2020-03-28,1,0,0, Varaždinska
+2020-03-28,11,0,1, Istarska
+2020-03-28,4,0,0, Osječko-baranjska
+2020-03-28,2,0,0, Zadarska
+2020-03-28,17,0,0, Splitsko-dalmatinska
+2020-03-28,5,0,0, Dubrovačko-neretvanska
+2020-03-28,7,0,0, Šibensko-kninska
+2020-03-28,1,0,0, Koprivničko-križevačka
+2020-03-28,2,0,0, Bjelovarsko-bilogorska
+2020-03-28,1,0,0, Vukovarsko-srijemska
+2020-03-28,0,0,1, Karlovačka
+2020-03-29,23,3,1, Zagreb
+2020-03-29,5,0,0, Istarska
+2020-03-29,3,0,0, Osječko-baranjska
+2020-03-29,2,0,0, Karlovačka
+2020-03-29,10,0,0, Krapinsko-zagorska
+2020-03-29,1,0,0, Dubrovačko-neretvanska
+2020-03-29,1,0,0, Šibensko-kninska
+2020-03-29,1,0,0, Koprivničko-križevačka
+2020-03-29,4,0,0, Vukovarsko-srijemska
+2020-03-29,6,0,0, Splitsko-dalmatinska
+2020-03-30,23,12,0, Zagreb
+2020-03-30,5,0,0, Primorsko-goranska
+2020-03-30,2,0,0, Varaždinska
+2020-03-30,3,0,0, Istarska
+2020-03-30,1,0,0, Sisačko-moslavačka
+2020-03-30,4,0,0, Osječko-baranjska
+2020-03-30,5,0,0, Krapinsko-zagorska
+2020-03-30,1,0,0, Brodsko-posavska
+2020-03-30,7,0,0, Zadarska
+2020-03-30,21,0,0, Splitsko-dalmatinska
+2020-03-30,1,0,0, Dubrovačko-neretvanska
+2020-03-30,4,0,0, Vukovarsko-srijemska
+2020-03-31,30,3,0, Zagreb
+2020-03-31,3,0,0, Primorsko-goranska
+2020-03-31,1,0,0, Sisačko-moslavačka
+2020-03-31,11,0,0, Osječko-baranjska
+2020-03-31,5,0,0, Krapinsko-zagorska
+2020-03-31,4,0,0, Brodsko-posavska
+2020-03-31,7,0,0, Zadarska
+2020-03-31,8,0,0, Splitsko-dalmatinska
+2020-03-31,2,0,0, Dubrovačko-neretvanska
+2020-03-31,1,0,0, Šibensko-kninska
+2020-03-31,1,0,0, Koprivničko-križevačka
+2020-03-31,2,0,0, Vukovarsko-srijemska
+2020-03-31,1,0,0, Virovitičko-podravska
+2020-03-31,1,0,0, Požeško-slavonska
+2020-04-01,-93,6,0, Zagreb
+2020-04-01,-1,0,0, Sisačko-moslavačka
+2020-04-01,82,0,0, Zagrebačka
+2020-04-01,2,0,0, Požeško-slavonska
+2020-04-01,3,0,0, Virovitičko-podravska
+2020-04-01,3,0,0, Brodsko-posavska
+2020-04-01,6,0,0, Osječko-baranjska
+2020-04-01,2,0,0, Bjelovarsko-bilogorska
+2020-04-01,8,0,0, Koprivničko-križevačka
+2020-04-01,5,0,0, Varaždinska
+2020-04-01,6,0,0, Krapinsko-zagorska
+2020-04-01,14,0,0, Primorsko-goranska
+2020-04-01,3,0,0, Istarska
+2020-04-01,1,0,0, Ličko-senjska
+2020-04-01,4,0,0, Zadarska
+2020-04-01,3,0,0, Šibensko-kninska
+2020-04-01,37,0,0, Splitsko-dalmatinska
+2020-04-01,11,0,0, Dubrovačko-neretvanska
+2020-04-02,10,15,1, Zagreb
+2020-04-02,2,0,0, Primorsko-goranska
+2020-04-02,1,0,0, Varaždinska
+2020-04-02,2,0,0, Istarska
+2020-04-02,1,0,0, Sisačko-moslavačka
+2020-04-02,5,0,0, Osječko-baranjska
+2020-04-02,9,0,0, Zadarska
+2020-04-02,10,0,0, Splitsko-dalmatinska
+2020-04-02,2,0,0, Šibensko-kninska
+2020-04-02,6,0,0, Zagrebačka
+2020-04-03,19,4,1, Zagreb
+2020-04-03,11,0,0, Splitsko-dalmatinska
+2020-04-03,1,0,0, Zagrebačka
+2020-04-03,3,0,0, Osječko-baranjska
+2020-04-03,4,0,0, Krapinsko-zagorska
+2020-04-03,1,0,0, Primorsko-goranska
+2020-04-03,2,0,0, Zadarska
+2020-04-03,12,0,0, Dubrovačko-neretvanska
+2020-04-03,1,0,0, Karlovačka
+2020-04-03,4,0,0, Sisačko-moslavačka
+2020-04-03,3,0,0, Vukovarsko-srijemska
+2020-04-03,4,0,0, Koprivničko-križevačka
+2020-04-03,2,0,0, Brodsko-posavska
+2020-04-03,1,0,0, Bjelovarsko-bilogorska
+2020-04-04,6,0,4, Osječko-baranjska
+2020-04-04,14,27,0, Zagreb
+2020-04-04,4,0,0, Splitsko-dalmatinska
+2020-04-04,3,0,0, Zagrebačka
+2020-04-04,7,0,0, Krapinsko-zagorska
+2020-04-04,2,0,0, Primorsko-goranska
+2020-04-04,4,0,0, Dubrovačko-neretvanska
+2020-04-04,1,0,0, Zadarska
+2020-04-04,1,0,0, Sisačko-moslavačka
+2020-04-04,2,0,0, Vukovarsko-srijemska
+2020-04-04,1,0,0, Brodsko-posavska
+2020-04-04,2,0,0, Međimurska
+2020-04-05,19,6,0, Zagreb
+2020-04-05,7,0,0, Splitsko-dalmatinska
+2020-04-05,1,0,0, Zagrebačka
+2020-04-05,0,0,1, Osječko-baranjska
+2020-04-05,4,0,0, Krapinsko-zagorska
+2020-04-05,2,0,0, Istarska
+2020-04-05,1,0,0, Primorsko-goranska
+2020-04-05,3,0,1, Dubrovačko-neretvanska
+2020-04-05,4,0,1, Zadarska
+2020-04-05,6,0,0, Šibensko-kninska
+2020-04-05,4,0,0, Varaždinska
+2020-04-05,3,0,0, Vukovarsko-srijemska
+2020-04-05,1,0,0, Brodsko-posavska
+2020-04-05,1,0,0, Bjelovarsko-bilogorska
+2020-04-06,15,5,1, Zagreb
+2020-04-06,16,0,0, Splitsko-dalmatinska
+2020-04-06,1,0,0, Primorsko-goranska
+2020-04-06,1,0,0, Dubrovačko-neretvanska
+2020-04-06,2,0,0, Varaždinska
+2020-04-06,3,0,0, Vukovarsko-srijemska
+2020-04-06,1,0,0, Brodsko-posavska
+2020-04-06,1,0,0, Međimurska
+2020-04-07,14,37,1, Zagreb
+2020-04-07,7,0,1, Šibensko-kninska
+2020-04-07,15,0,0, Splitsko-dalmatinska
+2020-04-07,3,0,0, Krapinsko-zagorska
+2020-04-07,2,0,0, Osječko-baranjska
+2020-04-07,1,0,0, Istarska
+2020-04-07,1,0,0, Primorsko-goranska
+2020-04-07,4,0,0, Zadarska
+2020-04-07,4,0,0, Vukovarsko-srijemska
+2020-04-07,1,0,0, Karlovačka
+2020-04-07,1,0,0, Sisačko-moslavačka
+2020-04-07,1,0,0, Brodsko-posavska
+2020-04-07,3,0,0, Koprivničko-križevačka
+2020-04-07,1,0,0, Međimurska
+2020-04-07,2,0,0, Zagrebačka
+2020-04-08,10,12,0, Zagreb
+2020-04-08,26,0,1, Splitsko-dalmatinska
+2020-04-08,6,0,0, Zagrebačka
+2020-04-08,3,0,0, Krapinsko-zagorska
+2020-04-08,2,0,0, Osječko-baranjska
+2020-04-08,3,0,0, Istarska
+2020-04-08,1,0,0, Primorsko-goranska
+2020-04-08,2,0,0, Šibensko-kninska
+2020-04-08,2,0,0, Varaždinska
+2020-04-08,1,0,0, Vukovarsko-srijemska
+2020-04-08,1,0,0, Karlovačka
+2020-04-08,1,0,0, Sisačko-moslavačka
+2020-04-08,1,0,0, Koprivničko-križevačka
+2020-04-08,1,0,0, Brodsko-posavska
+2020-04-08,1,0,0, Bjelovarsko-bilogorska
+2020-04-09,1,0,0, Bjelovarsko-bilogorska
+2020-04-09,12,40,1, Zagreb
+2020-04-09,24,0,0, Splitsko-dalmatinska
+2020-04-09,1,0,0, Zagrebačka
+2020-04-09,6,0,0, Krapinsko-zagorska
+2020-04-09,1,0,0, Istarska
+2020-04-09,1,0,0, Primorsko-goranska
+2020-04-09,2,0,0, Dubrovačko-neretvanska
+2020-04-09,4,0,0, Zadarska
+2020-04-09,9,0,0, Šibensko-kninska
+2020-04-09,2,0,0, Vukovarsko-srijemska
+2020-04-09,2,0,0, Koprivničko-križevačka
+2020-04-10,11,12,0, Zagreb
+2020-04-10,45,0,1, Splitsko-dalmatinska
+2020-04-10,5,0,0, Zagrebačka
+2020-04-10,2,0,0, Krapinsko-zagorska
+2020-04-10,1,0,0, Osječko-baranjska
+2020-04-10,1,0,0, Istarska
+2020-04-10,3,0,0, Primorsko-goranska
+2020-04-10,4,0,0, Dubrovačko-neretvanska
+2020-04-10,3,0,0, Zadarska
+2020-04-10,5,0,0, Šibensko-kninska
+2020-04-10,1,0,0, Vukovarsko-srijemska
+2020-04-10,1,0,0, Karlovačka
+2020-04-10,2,0,0, Sisačko-moslavačka
+2020-04-10,1,0,0, Koprivničko-križevačka
+2020-04-10,1,0,0, Međimurska
+2020-04-10,1,0,0, Ličko-senjska
+2020-04-11,7,92,0, Zagreb
+2020-04-11,11,0,0, Splitsko-dalmatinska
+2020-04-11,2,0,0, Zagrebačka
+2020-04-11,2,0,0, Krapinsko-zagorska
+2020-04-11,2,0,0, Istarska
+2020-04-11,2,0,0, Dubrovačko-neretvanska
+2020-04-11,4,0,0, Zadarska
+2020-04-11,3,0,0, Šibensko-kninska
+2020-04-11,1,0,0, Vukovarsko-srijemska
+2020-04-11,3,0,0, Sisačko-moslavačka
+2020-04-11,2,0,0, Karlovačka
+2020-04-12,8,50,2, Zagreb
+2020-04-12,21,0,0, Splitsko-dalmatinska
+2020-04-12,3,0,0, Zagrebačka
+2020-04-12,3,0,0, Krapinsko-zagorska
+2020-04-12,2,0,0, Primorsko-goranska
+2020-04-12,15,0,0, Dubrovačko-neretvanska
+2020-04-12,2,0,0, Zadarska
+2020-04-12,4,0,0, Šibensko-kninska
+2020-04-12,1,0,0, Vukovarsko-srijemska
+2020-04-12,2,0,0, Karlovačka
+2020-04-12,1,0,0, Koprivničko-križevačka
+2020-04-12,4,0,0, Ličko-senjska
