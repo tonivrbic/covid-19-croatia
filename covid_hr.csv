@@ -464,3 +464,9 @@ date, new_cases, new_recovered, new_died, county
 2020-04-27,1,0,0, Zagrebačka
 2020-04-27,1,0,0, Osječko-baranjska
 2020-04-27,2,0,1, Koprivničko-križevačka
+2020-04-28,1,66,0, Zagreb
+2020-04-28,1,0,2, Splitsko-dalmatinska
+2020-04-28,1,0,0, Zagrebačka
+2020-04-28,1,0,0, Osječko-baranjska
+2020-04-28,1,0,0, Dubrovačko-neretvanska
+2020-04-28,3,0,2, Koprivničko-križevačka
