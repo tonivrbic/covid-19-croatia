@@ -362,9 +362,9 @@ date, new_cases, new_recovered, new_died, county
 2020-04-15,3,58,0, Zagreb
 2020-04-15,15,0,1, Splitsko-dalmatinska
 2020-04-15,3,0,0, Zagrebačka
-2020-04-15,4,0,0, Krapinsko-zagorska
+2020-04-15,4,0,1, Krapinsko-zagorska
 2020-04-15,2,0,0, Osječko-baranjska
-2020-04-15,1,0,1, Dubrovačko-neretvanska
+2020-04-15,1,0,0, Dubrovačko-neretvanska
 2020-04-15,1,0,0, Istarska
 2020-04-15,1,0,0, Primorsko-goranska
 2020-04-15,1,0,0, Šibensko-kninska
