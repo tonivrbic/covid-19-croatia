@@ -506,8 +506,16 @@ date, new_cases, new_recovered, new_died, county
 2020-05-05,0,0,1, Dubrovačko-neretvanska
 2020-05-06,3,0,0, Dubrovačko-neretvanska
 2020-05-06,1,0,2, Koprivničko-križevačka
-2020-05-06,2,41,0, Zagreb
+2020-05-06,1,41,0, Zagreb
+2020-05-06,1,0,0, Sisačko-moslavačka
 2020-05-06,1,0,0, Splitsko-dalmatinska
 2020-05-07,0,40,1, Zagreb
 2020-05-07,4,0,0, Splitsko-dalmatinska
 2020-05-07,2,0,0, Koprivničko-križevačka
+2020-05-08,0,48,0, Zagreb
+2020-05-08,25,0,0, Splitsko-dalmatinska
+2020-05-08,5,0,0, Osječko-baranjska
+2020-05-08,3,0,0, Dubrovačko-neretvanska
+2020-05-08,1,0,0, Šibensko-kninska
+2020-05-08,1,0,0, Brodsko-posavska
+2020-05-08,1,0,0, Koprivničko-križevačka
