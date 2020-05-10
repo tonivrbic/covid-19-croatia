@@ -524,3 +524,8 @@ date, new_cases, new_recovered, new_died, county
 2020-05-09,2,0,0, Splitsko-dalmatinska
 2020-05-09,8,0,0, Koprivničko-križevačka
 2020-05-09,5,0,0, Brodsko-posavska
+2020-05-10,9,0,0, Splitsko-dalmatinska
+2020-05-10,1,0,0, Brodsko-posavska
+2020-05-10,1,0,0, Primorsko-goranska
+2020-05-10,0,0,3, Koprivničko-križevačka
+2020-05-10,0,38,0, Zagreb
