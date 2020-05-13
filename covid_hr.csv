@@ -540,3 +540,8 @@ date, new_cases, new_recovered, new_died, county
 2020-05-12,1,0,0, Sisačko-moslavačka
 2020-05-12,1,0,0, Brodsko-posavska
 2020-05-12,2,0,0, Požeško-slavonska
+2020-05-13,1,26,1, Zagreb
+2020-05-13,3,0,1, Splitsko-dalmatinska
+2020-05-13,1,0,0, Istarska
+2020-05-13,1,0,0, Šibensko-kninska
+2020-05-13,0,0,1, Koprivničko-križevačka
