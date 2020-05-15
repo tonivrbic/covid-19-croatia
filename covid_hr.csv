@@ -548,3 +548,6 @@ date, new_cases, new_recovered, new_died, county
 2020-05-14,3,16,0, Zagreb
 2020-05-14,2,0,0, Brodsko-posavska
 2020-05-14,3,0,0, Požeško-slavonska
+2020-05-15,0,19,0, Zagreb
+2020-05-15,0,0,1, Splitsko-dalmatinska
+2020-05-15,1,0,0, Koprivničko-križevačka
