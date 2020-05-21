@@ -564,3 +564,6 @@ date, new_cases, new_recovered, new_died, county
 2020-05-20,1,0,0, Vukovarsko-srijemska
 2020-05-20,1,0,0, Koprivničko-križevačka
 2020-05-20,0,11,0, Zagreb
+2020-05-21,1,0,0, Osječko-baranjska
+2020-05-21,2,0,0, Koprivničko-križevačka
+2020-05-21,0,0,1, Ličko-senjska
