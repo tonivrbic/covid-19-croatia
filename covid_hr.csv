@@ -567,3 +567,7 @@ date, new_cases, new_recovered, new_died, county
 2020-05-21,1,0,0, Osječko-baranjska
 2020-05-21,2,0,0, Koprivničko-križevačka
 2020-05-21,0,0,1, Ličko-senjska
+2020-05-22,1,0,1, Splitsko-dalmatinska
+2020-05-22,1,0,0, Osječko-baranjska
+2020-05-22,4,0,0, Brodsko-posavska
+2020-05-22,0,33,1, Zagreb
